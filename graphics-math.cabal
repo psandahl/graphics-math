@@ -15,7 +15,8 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Graphics.Math.Shape.Circle
+  exposed-modules:     Graphics.Math.Intersect.PointContainment2D
+                       Graphics.Math.Shape.Circle
                        Graphics.Math.Shape.Line2D
                        Graphics.Math.Shape.OrientedRectangle
                        Graphics.Math.Shape.Point2D
