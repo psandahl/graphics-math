@@ -15,8 +15,10 @@ cabal-version:       >=1.10
 
 library
   hs-source-dirs:      src
-  exposed-modules:     Graphics.Math.Shape.Line2D
+  exposed-modules:     Graphics.Math.Shape.Circle
+                       Graphics.Math.Shape.Line2D
                        Graphics.Math.Shape.Point2D
+                       Graphics.Math.Shape.Rectangle2D
                        Graphics.Math.Util.Angles
                        Graphics.Math.Util.Helpers
   build-depends:       base >= 4.7 && < 5

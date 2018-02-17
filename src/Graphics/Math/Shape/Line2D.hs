@@ -10,7 +10,7 @@ import           Graphics.Math.Shape.Point2D (Point2D)
 import           Linear                      (norm, quadrance)
 
 -- | A 2D line, with a start and an end point.
-data Line2D a = Line2D (Point2D a) (Point2D a)
+data Line2D a = Line2D !(Point2D a) !(Point2D a)
   deriving Show
 
 -- | Make a new line from two points.
