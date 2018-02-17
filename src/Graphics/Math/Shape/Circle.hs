@@ -1,5 +1,5 @@
 module Graphics.Math.Shape.Circle
-  ( Circle
+  ( Circle (..)
   , makeCircle
   ) where
 

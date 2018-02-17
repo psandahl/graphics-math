@@ -17,6 +17,7 @@ library
   hs-source-dirs:      src
   exposed-modules:     Graphics.Math.Shape.Circle
                        Graphics.Math.Shape.Line2D
+                       Graphics.Math.Shape.OrientedRectangle
                        Graphics.Math.Shape.Point2D
                        Graphics.Math.Shape.Rectangle2D
                        Graphics.Math.Util.Angles

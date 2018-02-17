@@ -1,5 +1,5 @@
 module Graphics.Math.Shape.Line2D
-  ( Line2D
+  ( Line2D (..)
   , makeLine2D
   , line2DLength
   , line2DLengthSq

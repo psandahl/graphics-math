@@ -1,5 +1,5 @@
 module Graphics.Math.Shape.Rectangle2D
-  ( Rectangle2D
+  ( Rectangle2D (..)
   , makeRectangle2D
   , rectangle2DMinPos
   , rectangle2DMaxPos
@@ -9,7 +9,7 @@ import           Control.Lens                ((^.))
 import           Graphics.Math.Shape.Point2D (Point2D, makePoint2D)
 import           Linear                      (V2, _x, _y)
 
--- | A Rectangle with a position point and a size vector.
+-- | A Rectangle with a corner origin point and a size vector.
 data Rectangle2D a = Rectangle2D !(Point2D a) !(V2 a)
   deriving Show
 
