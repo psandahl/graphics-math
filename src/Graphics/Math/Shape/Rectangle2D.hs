@@ -13,7 +13,7 @@ import           Linear                      (V2, _x, _y)
 data Rectangle2D a = Rectangle2D !(Point2D a) !(V2 a)
   deriving Show
 
--- | Make a rectangle from a position and a size.
+-- | Make a rectangle from an origin and a size vector.
 makeRectangle2D :: Point2D a -> V2 a -> Rectangle2D a
 makeRectangle2D = Rectangle2D
 {-# INLINE makeRectangle2D #-}
